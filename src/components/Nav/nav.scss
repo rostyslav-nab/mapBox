@@ -1,0 +1,21 @@
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  .navItem{
+    margin-top: 20px;
+    :hover{
+      background-color: #000;
+      border-radius: 10px;
+      color: azure;
+      transition: 1s;
+    }
+  }
+  .navText{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  }
+}
+
